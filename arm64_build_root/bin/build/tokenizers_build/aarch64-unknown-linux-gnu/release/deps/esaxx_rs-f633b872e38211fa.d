@@ -1,0 +1,10 @@
+/home/ubuntu/nlu/bert-nlu/model_distilbert/nlu-script/arm64_build_root/src/build/tokenizers_build/aarch64-unknown-linux-gnu/release/deps/esaxx_rs-f633b872e38211fa.d: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/lib.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/esa.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/sais.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/types.rs
+
+/home/ubuntu/nlu/bert-nlu/model_distilbert/nlu-script/arm64_build_root/src/build/tokenizers_build/aarch64-unknown-linux-gnu/release/deps/libesaxx_rs-f633b872e38211fa.rlib: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/lib.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/esa.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/sais.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/types.rs
+
+/home/ubuntu/nlu/bert-nlu/model_distilbert/nlu-script/arm64_build_root/src/build/tokenizers_build/aarch64-unknown-linux-gnu/release/deps/libesaxx_rs-f633b872e38211fa.rmeta: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/lib.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/esa.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/sais.rs /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/types.rs
+
+/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/lib.rs:
+/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/esa.rs:
+/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/sais.rs:
+/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esaxx-rs-0.1.10/src/types.rs:

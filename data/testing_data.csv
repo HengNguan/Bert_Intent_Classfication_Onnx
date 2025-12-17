@@ -1,0 +1,9 @@
+text,intent
+"turn on the radio",unmute_media
+"play music",unmute_media
+"switch off the radio",mute_media
+"mute the speaker",mute_media
+"please turn on audio",unmute_media
+"shut down the radio",mute_media
+"i want to listen to music",unmute_media
+"stop the audio",mute_media

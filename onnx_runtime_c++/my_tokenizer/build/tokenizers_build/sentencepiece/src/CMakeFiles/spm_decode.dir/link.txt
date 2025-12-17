@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -Wall -fPIC  -fmacro-prefix-map=/home/ubuntu/nlu/bert-nlu/model_distilbert/nlu-script/onnx_runtime_c++/my_tokenizer/='' -rdynamic CMakeFiles/spm_decode.dir/spm_decode_main.cc.o -o spm_decode  libsentencepiece.a 

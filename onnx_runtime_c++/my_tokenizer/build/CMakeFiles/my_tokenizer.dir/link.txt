@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_tokenizer.dir/main.cpp.o -o my_tokenizer  tokenizers_build/libtokenizers_cpp.a tokenizers_build/release/libtokenizers_c.a -ldl tokenizers_build/sentencepiece/src/libsentencepiece.a 

@@ -1,0 +1,23 @@
+#make onnxruntime for arm64
+source /opt/poky_add/environment-setup-aarch64-poky-linux
+cmake ../cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/aarch64-yocto-toolchain.cmake -DCMAKE_INSTALL_PREFIX=$PWD/install -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=Release -Donnxruntime_BUILD_SHARED_LIB=ON -Donnxruntime_ENABLE_PYTHON=OFF -Donnxruntime_USE_CUDA=OFF -Donnxruntime_USE_DNNL=OFF -Donnxruntime_USE_TENSORRT=OFF -Donnxruntime_USE_OPENVINO=OFF -Donnxruntime_USE_COREML=OFF -Donnxruntime_USE_MIMALLOC=OFF -Donnxruntime_USE_NNAPI=OFF
+
+
+cmake ../cmake   -DCMAKE_TOOLCHAIN_FILE=../cmake/aarch64-yocto-toolchain.cmake   -DCMAKE_INSTALL_PREFI
+X=$PWD/install   -DBUILD_SHARED_LIBS=ON   -DCMAKE_BUILD_TYPE=Release   -Donnxruntime_BUILD_SHARED_LIB=ON   -Donnxruntime_ENABLE_PYTHON=OFF   -Donnxruntime_USE_CUDA=OFF   -Donnxruntime_USE_DNNL=OFF   -Donnxruntime_USE_TENSORRT=OFF   
+-Donnxruntime_USE_OPENVINO=OFF   -Donnxruntime_USE_COREML=OFF   -Donnxruntime_USE_MIMALLOC=OFF   -Donnxruntime_USE_NNAPI=OFF   -DPROTOBUF_USE_CMAKE_SHARED_LIBS=ON   -Donnxruntime_USE_HOST_PROTOBUF=OFF   -DCMAKE_FIND_ROOT_PATH=$SDKTA
+RGETSYSROOT   -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER   -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY   -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY
+
+/opt/poky_add/sysroots/x86_64-oesdk-linux/usr/share/cmake/OEToolchainConfig.cmake
+
+
+# for tokenizers
+cmake .. \
+  -DCMAKE_TOOLCHAIN_FILE=/opt/poky_add/sysroots/x86_64-oesdk-linux/usr/share/cmake/OEToolchainConfig.cmake \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/usr/arm64-tokenizers \
+  -DBUILD_SHARED_LIBS=ON \
+  -DTOKENIZERS_BUILD_PYTHON=OFF \
+  -DTOKENIZERS_BUILD_RUST=OFF \
+  -DTOKENIZERS_BUILD_C_SHARED=ON
+

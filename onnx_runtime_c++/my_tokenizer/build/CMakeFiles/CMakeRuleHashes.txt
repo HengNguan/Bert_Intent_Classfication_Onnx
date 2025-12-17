@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+801e4ccddef81b9df01d59057e08d161 tokenizers_build/release/libtokenizers_c.a

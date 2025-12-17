@@ -1,0 +1,55 @@
+text,intent
+"lower the driver window",lower_window
+"roll down the driver side window",lower_window
+"open the left window",lower_window
+"drop the rear window a little",lower_window
+"lower all the windows",lower_window
+"can you roll down the passenger window",lower_window
+"open driver and passenger side windows",lower_window
+"let some air in, lower the windows",lower_window
+"roll the rear windows down halfway",lower_window
+"put the windows down",lower_window
+
+"raise the driver window",raise_window
+"roll up the driver side window",raise_window
+"close the left window",raise_window
+"shut the rear window completely",raise_window
+"raise all the windows",raise_window
+"can you roll up the passenger window",raise_window
+"close driver and passenger side windows",raise_window
+"seal the cabin, close the windows",raise_window
+"roll the rear windows up fully",raise_window
+"put the windows up",raise_window
+
+"set the temperature to 23",set_temperature
+"change the ac to 20 degrees",set_temperature
+"make the temperature 25",set_temperature
+"turn the aircon to 19",set_temperature
+"set cabin temperature at 22",set_temperature
+"adjust the temp to 21 degrees",set_temperature
+"temperature should be 18",set_temperature
+"keep it at 24 degrees",set_temperature
+"set the car temperature to 20",set_temperature
+"change climate to 23",set_temperature
+
+"mute the radio",mute_media
+"silence the music",mute_media
+"turn sound off",mute_media
+"stop the audio",mute_media
+"kill the sound",mute_media
+"mute everything",mute_media
+"shut the music",mute_media
+"stop playing sound",mute_media
+"turn off the speaker",mute_media
+"disable the audio",mute_media
+
+"unmute the radio",unmute_media
+"turn sound back on",unmute_media
+"resume the music",unmute_media
+"enable the audio",unmute_media
+"bring back the sound",unmute_media
+"play sound again",unmute_media
+"switch the audio back on",unmute_media
+"restore the speaker",unmute_media
+"turn the volume back on",unmute_media
+"start playing music again",unmute_media

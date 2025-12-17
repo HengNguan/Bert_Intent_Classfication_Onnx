@@ -1,0 +1,15 @@
+text,intent
+"roll the rear windows down halfway",lower_window
+"put the windows down",lower_window
+
+"roll the rear windows up fully",raise_window
+"put the windows up",raise_window
+
+"set the car temperature to 20",set_temperature
+"change climate to 23",set_temperature
+
+"turn off the speaker",mute_media
+"disable the audio",mute_media
+
+"turn the volume back on",unmute_media
+"start playing music again",unmute_media
